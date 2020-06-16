@@ -1,0 +1,22 @@
+@media screen and (max-width: 1024px) {
+  .intro {
+    background-position-x: right;
+    background-position-y: center;
+  }
+  .bio {
+    align-items: center;
+  }
+  .bio p {
+    width: 90%;
+    text-align: center;
+  }
+  .wrap-nav {
+    padding: 0;
+  }
+  .social {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

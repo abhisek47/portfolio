@@ -67,7 +67,7 @@ a:hover {
   position: fixed;
   top: 0;
   left: 0;
-  opacity: 0.9;
+  opacity: 1;
   width: 100%;
   height: 100vh;
   background: #111;
@@ -120,5 +120,5 @@ a:hover {
 }
 .bio p {
   width: 50%;
-  font-size: 20px;
+  font-size: 18px;
 }

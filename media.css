@@ -22,8 +22,22 @@
   .img-overlay {
     opacity: 0.7;
   }
-  .img {
+  .about-me .img {
     width: 80%;
     margin: 0 auto;
+  }
+  .item {
+    display: flex;
+    margin: 0.5em auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .item .content-overlay {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .item .content-img {
+    width: 100%;
   }
 }

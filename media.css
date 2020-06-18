@@ -50,4 +50,17 @@
   .lang {
     flex-direction: column;
   }
+  .software img {
+    margin: 0.2em;
+    padding: 1em;
+  }
+  .bio .dev {
+    font-size: 14px;
+  }
+  .design,
+  .development {
+    min-height: 350px;
+    width: 40%;
+    margin-bottom: 1em;
+  }
 }

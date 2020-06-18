@@ -254,7 +254,7 @@ a:hover {
 .speacilize p {
   font-size: 16px;
   padding: 0.5em 0;
-  height: 100px;
+  height: auto;
   font-family: 'Esteban', serif;
 }
 .speacilize:hover {
@@ -307,6 +307,7 @@ a:hover {
 .category ul {
   padding: 0;
 }
+
 .category strong {
   display: block;
   border-bottom: 2px solid darkgray;
@@ -321,4 +322,5 @@ a:hover {
 .design,
 .development {
   min-height: auto;
+  width: 200px;
 }

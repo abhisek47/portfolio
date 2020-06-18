@@ -98,10 +98,10 @@ a:hover {
   font-size: 24px;
 }
 .nav-item a {
-  transition: ease-in-out all 0.5s;
+  transition: ease-in-out all 0.3s;
 }
 .nav-item a:hover {
-  color: tomato !important;
+  color: #ace6f6 !important;
 }
 .social {
   display: flex;

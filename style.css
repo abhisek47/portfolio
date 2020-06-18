@@ -6,7 +6,12 @@ font-family: 'Montserrat', sans-serif;
 * {
   font-family: 'Montserrat', sans-serif;
 }
-
+body .btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  outline: none;
+  box-shadow: none;
+}
 .intro {
   position: relative;
   background: url('assets/bg.jpg') no-repeat 50% 50%;

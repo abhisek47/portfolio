@@ -1,10 +1,12 @@
+/* 
+font-family: 'Esteban', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
 * {
-  font-family: 'Poppins', sans-serif !important;
-  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
-.container {
-  max-width: 1366px !important;
-}
+
 .intro {
   position: relative;
   background: url('assets/bg.jpg') no-repeat 50% 50%;
@@ -31,7 +33,7 @@ a:hover {
   padding: 1rem 0 !important;
 }
 .navbar-brand {
-  font-size: 24px !important;
+  font-size: 20px !important;
 }
 /* menu button */
 
@@ -119,10 +121,10 @@ a:hover {
   height: 100vh;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
-.bio p {
-  width: 50%;
+.bio .dev {
+  width: 60%;
   font-size: 18px;
 }
 
@@ -136,7 +138,7 @@ a:hover {
   flex-direction: column;
 }
 .about-me img {
-  width: 90%;
+  width: 80%;
   margin: 0 auto !important;
   display: flex;
   justify-content: center;
@@ -144,7 +146,8 @@ a:hover {
   border-radius: 50%;
 }
 .about p {
-  font-size: 15px !important;
+  font-size: 16px !important;
+  font-family: 'Esteban', serif;
 }
 .project {
   width: 90%;
@@ -244,9 +247,72 @@ a:hover {
   transition: all 0.3s ease-in;
 }
 .speacilize p {
-  font-size: 14px;
+  font-size: 16px;
   padding: 0.5em 0;
+  font-family: 'Esteban', serif;
 }
 .speacilize:hover {
   background-color: #f8f8f8;
+}
+.lang {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.lang p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.lang .pic {
+  width: 60%;
+  margin: 0 auto;
+}
+.lang .range {
+  padding: 0.5em 0;
+}
+#skill {
+  width: 100%;
+}
+.category {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.software {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.software img {
+  padding: 1.5em;
+  margin: 1em;
+  background-color: #f4f4f4;
+  border-radius: 1em;
+}
+.category ul {
+  padding: 0;
+}
+.category strong {
+  display: block;
+  border-bottom: 2px solid darkgray;
+  padding-bottom: 1em !important;
+}
+.category ul > li {
+  list-style: none;
+  border-bottom: 1px solid lightgray;
+  margin: 1em 0;
+  font-family: 'Esteban', serif;
+}
+.design,
+.development {
+  min-height: auto;
 }

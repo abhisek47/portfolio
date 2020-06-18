@@ -44,4 +44,7 @@
     flex-direction: column;
     width: 100%;
   }
+  .speacilize {
+    text-align: center;
+  }
 }

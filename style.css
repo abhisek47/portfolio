@@ -254,6 +254,7 @@ a:hover {
 .speacilize p {
   font-size: 16px;
   padding: 0.5em 0;
+  height: 100px;
   font-family: 'Esteban', serif;
 }
 .speacilize:hover {

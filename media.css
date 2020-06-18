@@ -40,4 +40,8 @@
   .item .content-img {
     width: 100%;
   }
+  .knowledge {
+    flex-direction: column;
+    width: 100%;
+  }
 }

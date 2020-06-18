@@ -2,6 +2,9 @@
   font-family: 'Poppins', sans-serif !important;
   box-sizing: border-box;
 }
+.container {
+  max-width: 1366px !important;
+}
 .intro {
   position: relative;
   background: url('assets/bg.jpg') no-repeat 50% 50%;
@@ -126,6 +129,8 @@ a:hover {
 .about {
   display: flex;
   height: 100%;
+  width: 90%;
+  margin: 0 auto;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
@@ -133,13 +138,16 @@ a:hover {
 .about-me img {
   width: 90%;
   margin: 0 auto !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
 }
 .about p {
   font-size: 15px !important;
 }
 .project {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -217,4 +225,28 @@ a:hover {
 
 .fadeIn-bottom {
   top: 80%;
+}
+.expertize {
+  background-color: #ffd717;
+}
+.knowledge {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.speacilize {
+  cursor: pointer;
+  width: 100%;
+  padding: 1em;
+  border-radius: 0.5em 0.8em;
+  transition: all 0.3s ease-in;
+}
+.speacilize p {
+  font-size: 14px;
+  padding: 0.5em 0;
+}
+.speacilize:hover {
+  background-color: #f8f8f8;
 }

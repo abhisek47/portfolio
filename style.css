@@ -2,7 +2,9 @@
 font-family: 'Esteban', serif;
 font-family: 'Montserrat', sans-serif;
 */
-
+body {
+  background-color: #fff !important;
+}
 * {
   font-family: 'Montserrat', sans-serif;
 }
@@ -11,6 +13,13 @@ body .btn:focus,
 .btn.active:focus {
   outline: none;
   box-shadow: none;
+}
+.btn {
+  border-radius: 0 !important;
+  padding: 0.5em 1em !important;
+  background-color: #3d5af1 !important;
+  color: #fff !important;
+  border: none !important;
 }
 .intro {
   position: relative;
@@ -108,7 +117,7 @@ a:hover {
   transition: ease-in-out all 0.3s;
 }
 .nav-item a:hover {
-  color: #ace6f6 !important;
+  color: #3d5af1 !important;
 }
 .social {
   display: flex;
@@ -323,4 +332,46 @@ a:hover {
 .development {
   min-height: auto;
   width: 200px;
+}
+
+.form-control {
+  background-color: #f1f1f1 !important;
+  border-radius: 0 !important;
+  border: none !important;
+  outline: none;
+  padding: 1.5rem 0.75rem !important;
+}
+.company {
+  width: 90%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  background-color: #f1f1f1;
+  margin-bottom: 1em;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.company .icon {
+  font-size: 20px;
+  padding: 1em;
+  color: #3d5af1;
+  width: 60px;
+  height: auto;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+
+.company_detail {
+  margin: 0 1em;
+}
+.company_detail p {
+  margin: 0;
+  font-family: 'Esteban', serif;
+}
+.company_detail small {
+  color: rgba(0, 0, 0, 0.5);
 }

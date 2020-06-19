@@ -307,6 +307,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
 }
+
 .software img {
   padding: 1.5em;
   margin: 1em;
@@ -342,7 +343,7 @@ a:hover {
   padding: 1.5rem 0.75rem !important;
 }
 .company {
-  width: 90%;
+  width: 100%;
   display: grid;
   grid-template-columns: auto 1fr;
   background-color: #f1f1f1;

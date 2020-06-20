@@ -30,12 +30,6 @@
   .bio p {
     text-align: center;
   }
-  .modal-body h4 {
-    font-size: 18px;
-  }
-  .modal-body p {
-    font-size: 12px;
-  }
   .modal-body img {
     width: 30%;
   }
@@ -86,16 +80,11 @@
     margin: 0.2em;
     padding: 1em;
   }
-  .bio .dev {
-    font-size: 14px;
-  }
+
   .design,
   .development {
-    min-height: auto;
+    min-height: 300px;
     width: 40%;
     margin-bottom: 1em;
-  }
-  .message h5 {
-    font-size: 16px;
   }
 }

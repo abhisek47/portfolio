@@ -224,7 +224,7 @@ a:hover {
   background: rgba(0, 0, 0, 0.7);
   position: absolute;
   height: 100%;
-  width: 100% !important;
+  width: 90% !important;
   left: 0;
   top: 0;
   bottom: 0;
@@ -464,5 +464,4 @@ footer {
 .copyright {
   background-color: #0e153a;
   color: #fff;
-  font-size: 12px;
 }

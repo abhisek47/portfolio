@@ -17,6 +17,10 @@ p {
 a {
   outline: none !important;
 }
+.fixed-top {
+  right: 8% !important;
+  left: 8% !important;
+}
 .modal {
   z-index: 111;
 }

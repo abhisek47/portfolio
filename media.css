@@ -87,4 +87,7 @@
     width: 40%;
     margin-bottom: 1em;
   }
+  .copyright small {
+    font-size: 10px;
+  }
 }

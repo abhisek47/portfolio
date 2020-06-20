@@ -55,7 +55,7 @@
     opacity: 0.7;
   }
   .about-me .img {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
   }
   .item {
@@ -89,11 +89,17 @@
 
   .design,
   .development {
-    min-height: 300px;
+    min-height: 280px;
     width: 40%;
     margin-bottom: 1em;
   }
   .copyright small {
     font-size: 10px;
+  }
+  .project {
+    width: 100%;
+  }
+  .speacilize img {
+    width: 18%;
   }
 }

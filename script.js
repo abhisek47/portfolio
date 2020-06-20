@@ -14,8 +14,8 @@ $('.overlay').on('click', function () {
   open = false;
 });
 
-$(document).ready(function () {
-  $(window).load(function () {
-    $('#loading').show().delay(1500).fadeOut(500);
-  });
-});
+// $(document).ready(function () {
+//   $(window).load(function () {
+//     $('#loading').show().delay(1500).fadeOut(500);
+//   });
+// });

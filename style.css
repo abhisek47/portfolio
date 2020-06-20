@@ -11,6 +11,28 @@ body {
 a {
   outline: none !important;
 }
+.modal {
+  z-index: 111;
+}
+.modal-backdrop {
+  z-index: 11 !important;
+}
+.modal-content {
+  padding: 1em 0;
+  width: 90% !important;
+  margin: 0 auto;
+  background-color: #fff !important;
+  color: #111 !important;
+  border-radius: 0 !important;
+}
+.modal-body p {
+  color: #0e153a;
+  font-size: 14px;
+}
+.modal-body img {
+  width: 20%;
+  margin: 0 auto;
+}
 body button:focus,
 button:active:focus,
 button.active:focus {
@@ -356,6 +378,7 @@ a:hover {
   border-radius: 0 !important;
   border: none !important;
   outline: none;
+  font-size: 14px !important;
   padding: 1.5rem 0.75rem !important;
 }
 .company {

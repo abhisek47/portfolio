@@ -435,6 +435,11 @@ footer {
   padding: 1em 0;
   background-color: #ace6f6;
 }
+.message p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #0e153a;
+}
 .copyright {
   background-color: #0e153a;
   font-size: 12px;

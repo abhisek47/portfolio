@@ -1,4 +1,22 @@
 @media screen and (max-width: 1024px) {
+  p {
+    font-size: 12px !important;
+  }
+  h1 {
+    font-size: 20px !important;
+  }
+  h4 {
+    font-size: 16px !important;
+  }
+  h5 {
+    font-size: 14px !important;
+  }
+  li {
+    font-size: 12px !important;
+  }
+  .button-primary {
+    font-size: 14px;
+  }
   .intro {
     background-position-x: right;
     background-position-y: center;
@@ -43,7 +61,7 @@
   .item {
     display: flex;
     margin: 0.5em auto;
-    width: 100%;
+    width: 90%;
     justify-content: center;
     align-items: center;
   }
@@ -73,7 +91,7 @@
   }
   .design,
   .development {
-    min-height: 350px;
+    min-height: auto;
     width: 40%;
     margin-bottom: 1em;
   }

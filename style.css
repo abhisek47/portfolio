@@ -5,6 +5,9 @@ font-family: 'Montserrat', sans-serif;
 body {
   background-color: #fff !important;
 }
+p {
+  font-size: 16px !important;
+}
 * {
   font-family: 'Montserrat', sans-serif;
 }
@@ -39,9 +42,7 @@ button.active:focus {
   outline: none;
   box-shadow: none;
 }
-h4 {
-  font-weight: 600 !important;
-}
+
 .button-primary {
   padding: 0.5em 1em;
   border-radius: 0px;
@@ -85,7 +86,7 @@ a:hover {
   padding: 1rem 0 !important;
 }
 .navbar-brand {
-  font-size: 20px !important;
+  font-size: 18px !important;
 }
 /* menu button */
 
@@ -198,12 +199,11 @@ a:hover {
   border-radius: 50%;
 }
 .about p {
-  font-size: 16px !important;
   font-family: 'Esteban', serif;
 }
 .project {
   width: 90%;
-  margin: 0 auto;
+  margin: 1em auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -275,7 +275,6 @@ a:hover {
 
 .content-details p {
   color: #fff;
-  font-size: 0.8em;
 }
 
 .fadeIn-bottom {
@@ -299,7 +298,6 @@ a:hover {
   transition: all 0.3s ease-in;
 }
 .speacilize p {
-  font-size: 16px;
   padding: 0.5em 0;
   height: auto;
   font-family: 'Esteban', serif;
@@ -339,7 +337,7 @@ a:hover {
 }
 .software {
   width: 100%;
-  margin: 0 auto;
+  margin: 1em auto;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -459,13 +457,12 @@ footer {
   background-color: #ace6f6;
 }
 .message p {
-  font-size: 16px;
   font-weight: 500;
   color: #0e153a;
   font-family: 'Esteban', serif;
 }
 .copyright {
   background-color: #0e153a;
-  font-size: 12px;
   color: #fff;
+  font-size: 12px;
 }

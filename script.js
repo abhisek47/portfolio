@@ -16,6 +16,6 @@ $('.overlay').on('click', function () {
 
 $(document).ready(function () {
   $(window).load(function () {
-    $('#loading').fadeIn(500).delay(1500).fadeOut(500);
+    $('#loading').show().delay(1500).fadeOut(500);
   });
 });

@@ -3,12 +3,18 @@
     background-position-x: right;
     background-position-y: center;
   }
+  .nav-item a {
+    font-size: 14px;
+  }
   .bio {
     align-items: center;
   }
   .bio p {
     width: 90%;
     text-align: center;
+  }
+  .wrap-nav li {
+    padding: 1em;
   }
   .wrap-nav {
     padding: 0;

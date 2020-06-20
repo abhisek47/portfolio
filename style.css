@@ -2,6 +2,9 @@
 font-family: 'Esteban', serif;
 font-family: 'Montserrat', sans-serif;
 */
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #fff !important;
 }
@@ -88,10 +91,13 @@ a:hover {
 .navbar-brand {
   font-size: 18px !important;
 }
+.navbar-nav li {
+  padding: 0 0.8em;
+}
 /* menu button */
 
 .button {
-  display: inline;
+  display: none;
   position: absolute;
   right: 5px;
   z-index: 999;
@@ -149,14 +155,8 @@ a:hover {
   padding: 1.5em;
 }
 
-.wrap-nav li a {
-  font-size: 24px;
-}
 .nav-item a {
   transition: ease-in-out all 0.3s;
-}
-.nav-item a:hover {
-  color: #3d5af1 !important;
 }
 .social {
   display: flex;

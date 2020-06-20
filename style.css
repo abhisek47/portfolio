@@ -42,11 +42,10 @@ a {
 }
 .modal-body p {
   color: #0e153a;
-  font-size: 14px;
 }
 .modal-body img {
-  width: 20%;
-  margin: 0 auto;
+  width: 50%;
+  margin: 0.8em auto;
 }
 body button:focus,
 button:active:focus,

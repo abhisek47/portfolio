@@ -102,4 +102,7 @@
   .speacilize img {
     width: 18%;
   }
+  #loading img {
+    width: 30% !important;
+  }
 }

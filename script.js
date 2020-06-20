@@ -13,3 +13,9 @@ $('.overlay').on('click', function () {
   $('.button a').toggleClass('btn-open').toggleClass('btn-close');
   open = false;
 });
+
+$(document).ready(function () {
+  $(window).load(function () {
+    $('#loading').fadeIn(500).delay(1500).fadeOut(500);
+  });
+});

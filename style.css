@@ -491,7 +491,7 @@ footer {
   height: 100vh;
   z-index: 1111;
   background: #ace6f6 !important;
-  display: none;
+  transition: opacity 1.5s ease;
 }
 
 #loading img {
@@ -500,4 +500,9 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 10% !important;
+}
+
+.loading-finish {
+  opacity: 0;
+  pointer-events: none;
 }

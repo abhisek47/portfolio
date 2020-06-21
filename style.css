@@ -491,7 +491,7 @@ footer {
   height: 100vh;
   z-index: 1111;
   background: #ace6f6 !important;
-  transition: opacity 1.5s ease;
+  transition: opacity 1s ease;
 }
 
 #loading img {
